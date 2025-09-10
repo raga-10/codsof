@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stylish Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>🌸 My Image Gallery</h1>
+  <div class="gallery">
+    <img src="img1.jpg" alt="Image 1" class="gallery-img" />
+    <img src="img2.jpg" alt="Image 2" class="gallery-img" />
+    <img src="img3.jpg" alt="Image 3" class="gallery-img" />
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close"><i class="fas fa-times"></i></span>
+    <img class="lightbox-img" src="" alt="Expanded view" />
+    <div class="nav">
+      <span class="prev"><i class="fas fa-chevron-left"></i></span>
+      <span class="next"><i class="fas fa-chevron-right"></i></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
